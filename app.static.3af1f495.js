@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -81,6 +81,12 @@ module.exports = require("react");
 
 /***/ }),
 /* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/ScreenShot_01.25db1ff6.png";
+
+/***/ }),
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -94,13 +100,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(2);
+var _reactDom = __webpack_require__(3);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactHotLoader = __webpack_require__(3);
+var _reactHotLoader = __webpack_require__(4);
 
-var _App = __webpack_require__(4);
+var _App = __webpack_require__(5);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -147,19 +153,19 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -175,15 +181,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Tabs = __webpack_require__(5);
+var _Tabs = __webpack_require__(6);
 
-var _MuiThemeProvider = __webpack_require__(6);
+var _MuiThemeProvider = __webpack_require__(7);
 
 var _MuiThemeProvider2 = _interopRequireDefault(_MuiThemeProvider);
 
-__webpack_require__(7);
+__webpack_require__(8);
 
-var _Home = __webpack_require__(8);
+var _Home = __webpack_require__(9);
 
 var _Home2 = _interopRequireDefault(_Home);
 
@@ -191,7 +197,7 @@ var _Details = __webpack_require__(11);
 
 var _Details2 = _interopRequireDefault(_Details);
 
-var _About = __webpack_require__(12);
+var _About = __webpack_require__(15);
 
 var _About2 = _interopRequireDefault(_About);
 
@@ -326,25 +332,25 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports) {
 
 module.exports = require("material-ui/Tabs");
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports) {
 
 module.exports = require("material-ui/styles/MuiThemeProvider");
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports) {
 
 module.exports = require("flexboxgrid/css/flexboxgrid.css");
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -360,7 +366,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _RaisedButton = __webpack_require__(9);
+var _RaisedButton = __webpack_require__(10);
 
 var _RaisedButton2 = _interopRequireDefault(_RaisedButton);
 
@@ -414,7 +420,7 @@ var Home = function (_Component) {
           { className: 'row center-xs' },
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-8 col-sm-5 col-md-4 col-lg-3' },
+            { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-3' },
             _react2.default.createElement('div', { style: { marginTop: "40%" } }),
             _react2.default.createElement(
               'p',
@@ -439,7 +445,7 @@ var Home = function (_Component) {
                 { className: 'col-xs-8 col-sm-4 col-md-4 col-lg-4 m-b-15' },
                 _react2.default.createElement(_RaisedButton2.default, {
                   label: '\u4E0B\u8F7D\u9605\u4EAB',
-                  href: 'itms-services://?action=download-manifest&url=http://yuexiangapp.com/ipa_files/manifest.plist',
+                  href: 'itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/YueXiangApp/YueXiangApp.github.io/master/ipa_files/manifest.plist',
                   primary: true,
                   style: { marginBottom: 15 }
                 })
@@ -458,7 +464,7 @@ var Home = function (_Component) {
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-4' },
-            _react2.default.createElement('img', { src: __webpack_require__(10), style: { width: "100%" } })
+            _react2.default.createElement('img', { src: __webpack_require__(1), style: { width: "100%" } })
           )
         )
       );
@@ -485,16 +491,10 @@ var _temp2 = function () {
 ;
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = require("material-ui/RaisedButton");
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/ScreenShot_01.25db1ff6.png";
 
 /***/ }),
 /* 11 */
@@ -512,6 +512,18 @@ var _createClass = function () { function defineProperties(target, props) { for 
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
+
+var _telescope = __webpack_require__(12);
+
+var _telescope2 = _interopRequireDefault(_telescope);
+
+var _cloudUpload = __webpack_require__(13);
+
+var _cloudUpload2 = _interopRequireDefault(_cloudUpload);
+
+var _gitCompare = __webpack_require__(14);
+
+var _gitCompare2 = _interopRequireDefault(_gitCompare);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -537,8 +549,86 @@ var Details = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { style: { height: '100vh' } },
-        'Details'
+        { style: { height: '150vh', backgroundColor: "#F7F8FA" } },
+        _react2.default.createElement(
+          'div',
+          { className: 'row center-xs' },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-3' },
+            _react2.default.createElement('img', { src: __webpack_require__(1), style: { width: "100%" } })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-3' },
+            _react2.default.createElement('div', { style: { marginTop: "40%" } }),
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 42, color: 'rgb(83, 85, 88)' } },
+              '\u9605\u4EABApp'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'start-xs', style: { fontSize: 22, color: 'rgb(83, 85, 88)' } },
+              '\u9605\u4EABApp\u662F\u8BA9\u4E66\u7C4D\u8D44\u6E90\u5145\u5206\u5229\u7528\u7684\u6700\u597D\u65B9\u5F0F\u3002'
+            )
+          )
+        ),
+        _react2.default.createElement('div', { style: { marginTop: 80 } }),
+        _react2.default.createElement(
+          'div',
+          { className: 'row center-xs' },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-10 col-sm-1 col-md-1 col-lg-1' },
+            _react2.default.createElement(_cloudUpload2.default, { size: 68 })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-4' },
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
+              '\u4E0A\u4F20\u81EA\u5DF1\u62E5\u6709\u7684\u4E66\u7C4D\uFF0C\u5E76\u5BF9\u597D\u53CB\u53EF\u89C1\u3002'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'row center-xs' },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-10 col-sm-1 col-md-1 col-lg-1' },
+            _react2.default.createElement(_gitCompare2.default, { size: 68 })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-4' },
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
+              '\u6DFB\u52A0\u81EA\u5DF1\u60F3\u770B\u7684\u4E66\u5230\u613F\u671B\u5355\uFF0C\u770B\u770B\u54EA\u4E2A\u597D\u53CB\u62E5\u6709\u6211\u613F\u671B\u7684\u4E66\u3002'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'row center-xs' },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-10 col-sm-1 col-md-1 col-lg-1' },
+            _react2.default.createElement(_telescope2.default, { size: 68 })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-4' },
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
+              '\u53D1\u73B0\u4E0E\u81EA\u5DF1\u8BFB\u4E66\u54C1\u5473\u76F8\u8FD1\u7684\u4EBA\u3002'
+            )
+          )
+        )
       );
     }
   }]);
@@ -564,6 +654,24 @@ var _temp = function () {
 
 /***/ }),
 /* 12 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-icons/lib/go/telescope");
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-icons/lib/go/cloud-upload");
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-icons/lib/go/git-compare");
+
+/***/ }),
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -579,7 +687,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Avatar = __webpack_require__(13);
+var _Avatar = __webpack_require__(16);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
@@ -628,7 +736,7 @@ var About = function (_Component) {
             'div',
             { className: 'col-xs-10 col-sm-6 col-md-6 col-lg-3' },
             _react2.default.createElement(_Avatar2.default, {
-              src: __webpack_require__(14),
+              src: __webpack_require__(17),
               size: 120
             }),
             _react2.default.createElement(
@@ -651,7 +759,7 @@ var About = function (_Component) {
             'div',
             { className: 'col-xs-10 col-sm-6 col-md-6 col-lg-3' },
             _react2.default.createElement(_Avatar2.default, {
-              src: __webpack_require__(15),
+              src: __webpack_require__(18),
               size: 120
             }),
             _react2.default.createElement(
@@ -695,19 +803,19 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 13 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = require("material-ui/Avatar");
 
 /***/ }),
-/* 14 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/luyu.60d205b5.png";
 
 /***/ }),
-/* 15 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/yida.951dc01f.png";
@@ -715,4 +823,4 @@ module.exports = __webpack_require__.p + "static/yida.951dc01f.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.761262ed.js.map
+//# sourceMappingURL=app.static.3af1f495.js.map
