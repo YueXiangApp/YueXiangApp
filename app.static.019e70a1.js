@@ -323,7 +323,7 @@ var Home = function (_Component) {
               { style: { display: 'flex', justifyContent: 'flex-start' } },
               _react2.default.createElement(_RaisedButton2.default, {
                 label: '\u4E0B\u8F7D\u9605\u4EAB',
-                href: 'https://github.com/callemall/material-ui',
+                href: 'http://yuexiangapp.com/ipa_files/manifest.plist',
                 primary: true
               }),
               _react2.default.createElement(_RaisedButton2.default, { label: '\u66F4\u591A\u8BE6\u60C5', primary: true, style: { marginLeft: 30 } })
@@ -390,4 +390,4 @@ module.exports = __webpack_require__.p + "static/ScreenShot_00.7ed735ed.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.7c6e9c0b.js.map
+//# sourceMappingURL=app.static.019e70a1.js.map
