@@ -179,7 +179,9 @@ var _MuiThemeProvider = __webpack_require__(5);
 
 var _MuiThemeProvider2 = _interopRequireDefault(_MuiThemeProvider);
 
-var _Home = __webpack_require__(6);
+__webpack_require__(6);
+
+var _Home = __webpack_require__(7);
 
 var _Home2 = _interopRequireDefault(_Home);
 
@@ -238,6 +240,12 @@ module.exports = require("material-ui/styles/MuiThemeProvider");
 
 /***/ }),
 /* 6 */
+/***/ (function(module, exports) {
+
+module.exports = require("flexboxgrid/css/flexboxgrid.css");
+
+/***/ }),
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -253,9 +261,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Tabs = __webpack_require__(7);
+var _Tabs = __webpack_require__(8);
 
-var _RaisedButton = __webpack_require__(8);
+var _RaisedButton = __webpack_require__(9);
 
 var _RaisedButton2 = _interopRequireDefault(_RaisedButton);
 
@@ -269,6 +277,39 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * Created by Yida Yin on 11/13/17
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 */
 
+var component1 = _react2.default.createElement(
+  'div',
+  { style: { marginTop: '30%' } },
+  _react2.default.createElement(
+    'p',
+    { style: { fontSize: 42, color: 'rgb(83, 85, 88)' } },
+    '\u9605\u4EAB'
+  ),
+  _react2.default.createElement(
+    'p',
+    { className: 'start-xs', style: { fontSize: 22, color: 'rgb(83, 85, 88)' } },
+    '\u6DFB\u52A0\u60A8\u62E5\u6709\u7684\u548C\u60A8\u60F3\u770B\u7684\u4E66\u7C4D\uFF0C\u53D1\u73B0\u60A8\u4E0E\u60A8\u597D\u53CB\u4E4B\u95F4\u5171\u540C\u611F\u5174\u8DA3\u7684\u9605\u8BFB\u3002\u5145\u5206\u5229\u7528\u95F2\u7F6E\u4E66\u7C4D\u3002\u73B0\u652F\u6301iPhone\u8BBE\u5907\u3002'
+  ),
+  _react2.default.createElement(
+    'div',
+    { className: 'row start-xs' },
+    _react2.default.createElement(
+      'div',
+      { className: 'col-xs-6 col-sm-6 col-md-4 col-lg-5' },
+      _react2.default.createElement(_RaisedButton2.default, {
+        label: '\u4E0B\u8F7D\u9605\u4EAB0.73',
+        href: 'http://yuexiangapp.com/ipa_files/manifest.plist',
+        primary: true
+      })
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'col-xs-6 col-sm-4 col-md-4 col-lg-3' },
+      _react2.default.createElement(_RaisedButton2.default, { label: '\u66F4\u591A\u8BE6\u60C5', primary: true, style: { marginLeft: 30 } })
+    )
+  )
+);
+
 var Home = function (_Component) {
   _inherits(Home, _Component);
 
@@ -281,60 +322,41 @@ var Home = function (_Component) {
   _createClass(Home, [{
     key: 'render',
     value: function render() {
+
       return _react2.default.createElement(
         'div',
-        { style: { display: 'flex', flex: 1, flexDirection: 'column', backgroundColor: "#F7F8FA" } },
+        { style: { height: '100vh', backgroundColor: "#F7F8FA" } },
         _react2.default.createElement(
           'div',
-          { style: { display: 'flex' } },
-          _react2.default.createElement('div', { style: { display: 'flex', flex: 1, backgroundColor: "#FFFFFF" } }),
+          { className: 'row center-xs', style: { backgroundColor: "#FFFFFF" } },
           _react2.default.createElement(
-            _Tabs.Tabs,
-            {
-              tabItemContainerStyle: { backgroundColor: "#FFFFFF" },
-              inkBarStyle: { backgroundColor: 'rgb(70, 160, 153)' },
-              style: { width: "50%" }
-            },
-            _react2.default.createElement(_Tabs.Tab, { style: styles.tab, label: '\u4E3B\u9875' }),
-            _react2.default.createElement(_Tabs.Tab, { style: styles.tab, label: '\u9605\u4EAB' }),
-            _react2.default.createElement(_Tabs.Tab, { style: styles.tab, label: '\u5173\u4E8E\u6211\u4EEC' })
-          ),
-          _react2.default.createElement('div', { style: { display: 'flex', flex: 1, backgroundColor: "#FFFFFF" } })
+            'div',
+            { className: 'col-xs-12 col-sm-10 col-md-8 col-lg-6' },
+            _react2.default.createElement(
+              _Tabs.Tabs,
+              {
+                tabItemContainerStyle: { backgroundColor: "#FFFFFF" },
+                inkBarStyle: { backgroundColor: 'rgb(70, 160, 153)' }
+              },
+              _react2.default.createElement(_Tabs.Tab, { style: styles.tab, label: '\u4E3B\u9875' }),
+              _react2.default.createElement(_Tabs.Tab, { style: styles.tab, label: '\u9605\u4EAB' }),
+              _react2.default.createElement(_Tabs.Tab, { style: styles.tab, label: '\u5173\u4E8E\u6211\u4EEC' })
+            )
+          )
         ),
         _react2.default.createElement(
           'div',
-          { style: { display: 'flex', flex: 1, flexWrap: 'wrap', flexDirection: 'row', paddingTop: '3%', height: '100%' } },
-          _react2.default.createElement('div', { style: { display: 'flex', flex: 0.8 } }),
+          { className: 'row center-xs' },
           _react2.default.createElement(
             'div',
-            { style: { display: 'flex', flex: 1.3, flexDirection: 'column', marginTop: '5%' } },
-            _react2.default.createElement(
-              'p',
-              { style: { fontSize: 42, color: 'rgb(83, 85, 88)' } },
-              '\u9605\u4EAB'
-            ),
-            _react2.default.createElement(
-              'p',
-              { style: { fontSize: 22, color: 'rgb(83, 85, 88)' } },
-              '\u6DFB\u52A0\u60A8\u62E5\u6709\u7684\u548C\u60A8\u60F3\u770B\u7684\u4E66\u7C4D\uFF0C\u53D1\u73B0\u60A8\u4E0E\u60A8\u597D\u53CB\u4E4B\u95F4\u5171\u540C\u611F\u5174\u8DA3\u7684\u9605\u8BFB\u3002\u5145\u5206\u5229\u7528\u95F2\u7F6E\u4E66\u7C4D\u3002\u73B0\u652F\u6301iPhone\u8BBE\u5907\u3002'
-            ),
-            _react2.default.createElement(
-              'div',
-              { style: { display: 'flex', justifyContent: 'flex-start' } },
-              _react2.default.createElement(_RaisedButton2.default, {
-                label: '\u4E0B\u8F7D\u9605\u4EAB',
-                href: 'http://yuexiangapp.com/ipa_files/manifest.plist',
-                primary: true
-              }),
-              _react2.default.createElement(_RaisedButton2.default, { label: '\u66F4\u591A\u8BE6\u60C5', primary: true, style: { marginLeft: 30 } })
-            )
+            { className: 'col-xs-12 col-sm-5 col-md-4 col-lg-3' },
+            component1
           ),
           _react2.default.createElement(
             'div',
-            { style: { display: 'flex', flex: 1, flexDirection: 'column', marginLeft: 20 } },
-            _react2.default.createElement('img', { src: __webpack_require__(9), style: { width: 520, height: 650 } })
-          ),
-          _react2.default.createElement('div', { style: { display: 'flex', flex: 0.8 } })
+            { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-4' },
+            _react2.default.createElement('img', { src: __webpack_require__(10), style: { width: "100%" } })
+          )
         )
       );
     }
@@ -360,6 +382,8 @@ var _temp = function () {
     return;
   }
 
+  __REACT_HOT_LOADER__.register(component1, 'component1', '/Users/yidayin/Desktop/YueXiangAppSource/src/Home.js');
+
   __REACT_HOT_LOADER__.register(Home, 'Home', '/Users/yidayin/Desktop/YueXiangAppSource/src/Home.js');
 
   __REACT_HOT_LOADER__.register(styles, 'styles', '/Users/yidayin/Desktop/YueXiangAppSource/src/Home.js');
@@ -370,24 +394,24 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports) {
 
 module.exports = require("material-ui/Tabs");
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports) {
 
 module.exports = require("material-ui/RaisedButton");
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/ScreenShot_00.7ed735ed.png";
+module.exports = __webpack_require__.p + "static/ScreenShot_01.25db1ff6.png";
 
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.019e70a1.js.map
+//# sourceMappingURL=app.static.4f6f8245.js.map
