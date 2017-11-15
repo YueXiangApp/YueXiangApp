@@ -563,7 +563,7 @@ var Details = function (_Component) {
             )
           )
         ),
-        _react2.default.createElement('div', { style: { marginTop: 80 } }),
+        _react2.default.createElement('div', { style: { marginTop: 80, backgroundColor: "#F7F8FA" } }),
         _react2.default.createElement(
           'div',
           { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
@@ -813,4 +813,4 @@ module.exports = __webpack_require__.p + "static/yida.951dc01f.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.40783784.js.map
+//# sourceMappingURL=app.static.c49f63df.js.map
