@@ -564,7 +564,7 @@ var Details = function (_Component) {
             ),
             _react2.default.createElement(
               'p',
-              { className: 'start-xs', style: { fontSize: 22, color: 'rgb(83, 85, 88)' } },
+              { className: 'start-xs', style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
               '\u9605\u4EABApp\u662F\u8BA9\u4E66\u7C4D\u8D44\u6E90\u5145\u5206\u5229\u7528\u7684\u6700\u597D\u65B9\u5F0F\u3002'
             )
           )
@@ -798,7 +798,7 @@ var About = function (_Component) {
           { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15' },
+            { className: 'col-xs-6 col-sm-6 col-md-3 col-lg-2 m-b-15' },
             _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
             _react2.default.createElement(
               'p',
@@ -808,7 +808,7 @@ var About = function (_Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            { className: 'col-xs-6 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
             _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
             _react2.default.createElement(
               'p',
@@ -818,7 +818,7 @@ var About = function (_Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            { className: 'col-xs-6 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
             _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
             _react2.default.createElement(
               'p',
@@ -828,7 +828,7 @@ var About = function (_Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            { className: 'col-xs-6 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
             _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
             _react2.default.createElement(
               'p',
@@ -842,7 +842,7 @@ var About = function (_Component) {
           { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            { className: 'col-xs-6 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
             _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
             _react2.default.createElement(
               'p',
@@ -852,7 +852,7 @@ var About = function (_Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            { className: 'col-xs-6 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
             _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
             _react2.default.createElement(
               'p',
@@ -862,7 +862,7 @@ var About = function (_Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            { className: 'col-xs-6 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
             _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
             _react2.default.createElement(
               'p',
@@ -870,7 +870,7 @@ var About = function (_Component) {
               'You?'
             )
           ),
-          _react2.default.createElement('div', { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' })
+          _react2.default.createElement('div', { className: 'col-xs-6 col-sm-6 col-md-3 col-lg-2 m-b-15 ' })
         )
       );
     }
@@ -916,4 +916,4 @@ module.exports = __webpack_require__.p + "static/yida.951dc01f.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.347d3465.js.map
+//# sourceMappingURL=app.static.001e97f7.js.map
