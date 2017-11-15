@@ -417,10 +417,10 @@ var Home = function (_Component) {
         { style: { height: '100vh', backgroundColor: "#F7F8FA" } },
         _react2.default.createElement(
           'div',
-          { className: 'row center-xs' },
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-3' },
+            { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-3', style: { backgroundColor: "#F7F8FA" } },
             _react2.default.createElement('div', { style: { marginTop: "40%" } }),
             _react2.default.createElement(
               'p',
@@ -439,31 +439,20 @@ var Home = function (_Component) {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'row center-xs start-md m-b-15' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-8 col-sm-4 col-md-4 col-lg-4 m-b-15' },
-                _react2.default.createElement(_RaisedButton2.default, {
-                  label: '\u4E0B\u8F7D\u9605\u4EAB',
-                  href: 'itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/YueXiangApp/YueXiangApp.github.io/master/ipa_files/manifest.plist',
-                  primary: true,
-                  style: { marginBottom: 15 }
-                })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-8 col-sm-4 col-md-4 col-lg-4 m-b-15' },
-                _react2.default.createElement(_RaisedButton2.default, {
-                  label: '\u66F4\u591A\u8BE6\u60C5',
-                  primary: true,
-                  onClick: this.switchToDetails
-                })
-              )
+              { className: 'center-xs start-md' },
+              _react2.default.createElement(_RaisedButton2.default, {
+                label: '\u4E0B\u8F7D\u9605\u4EAB',
+                href: 'itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/YueXiangApp/YueXiangApp.github.io/master/ipa_files/manifest.plist'
+                //primary={true}
+                , backgroundColor: 'rgb(98, 198, 185)',
+                labelStyle: { color: "#F7F8FA", fontSize: 18 },
+                style: { marginBottom: 15, width: '40%' }
+              })
             )
           ),
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-4' },
+            { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-4', style: { backgroundColor: "#F7F8FA" } },
             _react2.default.createElement('img', { src: __webpack_require__(1), style: { width: "100%" } })
           )
         )
@@ -549,10 +538,10 @@ var Details = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { style: { height: '150vh', backgroundColor: "#F7F8FA" } },
+        { style: { height: '100vh', backgroundColor: "#F7F8FA" } },
         _react2.default.createElement(
           'div',
-          { className: 'row center-xs' },
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-3' },
@@ -577,58 +566,59 @@ var Details = function (_Component) {
         _react2.default.createElement('div', { style: { marginTop: 80 } }),
         _react2.default.createElement(
           'div',
-          { className: 'row center-xs' },
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-1 col-md-1 col-lg-1' },
-            _react2.default.createElement(_cloudUpload2.default, { size: 68 })
+            _react2.default.createElement(_cloudUpload2.default, { size: 68, color: 'rgb(83, 85, 88)' })
           ),
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-4' },
             _react2.default.createElement(
               'p',
-              { style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
+              { className: 'start-xs', style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
               '\u4E0A\u4F20\u81EA\u5DF1\u62E5\u6709\u7684\u4E66\u7C4D\uFF0C\u5E76\u5BF9\u597D\u53CB\u53EF\u89C1\u3002'
             )
           )
         ),
         _react2.default.createElement(
           'div',
-          { className: 'row center-xs' },
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-1 col-md-1 col-lg-1' },
-            _react2.default.createElement(_gitCompare2.default, { size: 68 })
+            _react2.default.createElement(_gitCompare2.default, { size: 68, color: 'rgb(83, 85, 88)' })
           ),
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-4' },
             _react2.default.createElement(
               'p',
-              { style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
+              { className: 'start-xs', style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
               '\u6DFB\u52A0\u81EA\u5DF1\u60F3\u770B\u7684\u4E66\u5230\u613F\u671B\u5355\uFF0C\u770B\u770B\u54EA\u4E2A\u597D\u53CB\u62E5\u6709\u6211\u613F\u671B\u7684\u4E66\u3002'
             )
           )
         ),
         _react2.default.createElement(
           'div',
-          { className: 'row center-xs' },
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-1 col-md-1 col-lg-1' },
-            _react2.default.createElement(_telescope2.default, { size: 68 })
+            _react2.default.createElement(_telescope2.default, { size: 68, color: 'rgb(83, 85, 88)' })
           ),
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-4' },
             _react2.default.createElement(
               'p',
-              { style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
+              { className: 'start-xs', style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
               '\u53D1\u73B0\u4E0E\u81EA\u5DF1\u8BFB\u4E66\u54C1\u5473\u76F8\u8FD1\u7684\u4EBA\u3002'
             )
           )
-        )
+        ),
+        _react2.default.createElement('div', { style: { height: 120, backgroundColor: "#F7F8FA" } })
       );
     }
   }]);
@@ -823,4 +813,4 @@ module.exports = __webpack_require__.p + "static/yida.951dc01f.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.3af1f495.js.map
+//# sourceMappingURL=app.static.40783784.js.map
