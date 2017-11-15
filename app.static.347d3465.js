@@ -77,13 +77,13 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ (function(module, exports) {
 
-module.exports = require("react");
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAFNJJREFUeJztnX10VOWdx7+/37yECUmAkNDFRChVXgS6aBEDtoLotu4WCIQGrNBat1bY022xQvccoN3D0p6l9AWtWluL23W7GhAREShqxdJjEHmTtqwSAlGEZADzQt6Tycyd+/z2DxKMIXPvzGTuvTOYzzlwYO7zPN/f3Pub5z6vv4fgMJtWFzULcJiJnvrqf774PAHitE1WIgBtWlV0t0A9wMI3L1q/fZCT9pCT4gCwafXcEMAeAFDAIRK6b/FPXix32i4reGZV4Xgm+h8CTwEABQS/tm77ACdtYifFO03ouPwvoEBEP/LsqnnznbTICjb/YP7dLK4jXQ8fAFgh4KRNQBI4gAJauv+fmTNYZGvJ6qJvO2VToilZNe9BXWQzMdK7f97zuzuB4w7AQOOVHzIT8ETJ6nnfccCkhLJpVdFDRPRL7u11y9LggEkfN8FpAwS4GPkaPbZ55fyv22lPItm0et43QXg4YgKROhvN6RXHHQCQ6khXGCBh/XfPrpo/006LEkHJ6vl3KUW/NUrDhBq77Ilog9MGCHDBOAV7mGTb5h/Mu84ei/rOMz8sHCvQtzDDbZROQCbf3XocdwAW8UeRbIgo2r5zzex086TO8vyaBRmku7Yz2LR/T8Ln7LDJCMcdAExVUaUjfLY16HnCYmv6TCgU3siEG6JJKyyVVttjhuMOQJCzUSdm3Ld51fxFFprTJ0pWFv0zE+6JNj0Jf2ClPdHguAO4gt7TsaQXkd88+4P5I62yJ15KVs7/jEA9FkseUR3vW2VPtDg+FAwAz66c28LMGTFkaVFQbgb7oJRSQDuDa8FyRgHvEtEhCul/XvTznecTYd+W1cV5Sqk7hOQWASaSYKSCymUgHcwsCu3E0AFkxlBsw6J127MTYV9fMGyl2gZTBYCbYsiRyV2VFzMzkAEgA6BRDMyE4LvwuFCyeu4RCJVAtP9dvH53TIMuW9YUZ+uafi+Ar+nQJ3fJUedf3K3y7DnCFw0KOBVrHitIDgcQKgfF5ABRQeApIEwR8a4rWTX3vzya9ycLf7H1Q6M8m/6t8Bq4Xas0Tbufwb5E29QFKzlpVdmxkBQOQIQTlpbPSAd4Wdgbvn/Tqrk/Gu5tfHjm2jfC3dP8dskST2ZOzfdF0Q+JkM4WN48UU5mlAlHieCMQAEjZ1h0aCOKfXtCyD25eOW9M14fP/LBw7MCcmkMArYunOo8Hl0TZ/bUYxxuBJavnziHFz4KRZauwQrOCLCYWInAJYmvAJUBeNblA99yz7qVX7NTtiaMOULJ63hJS8hswO1ITKSidFchJfVL8wOL12592Qh9w0AFKVhUtJcKTTuknCwoQhnxr0bqX/tsJfUccYNPKokJAbY/ll+f2DkD2yIkYcu1YZAzNw4BBOXB5Lq2m0rUAOpouovXiOTRUlaP+7HGEQx0mJcaGlfqXagJX4eL1L76cUKOjwHYHKFk1fxyRHEaU71zf4GEYOfkuDBs9Gez2RKWhwiFUn3oblUdfQ6Cpti/m2qavoJqUUjffu37Xe32xN1ZsdYDfLlniGZhTc4hBpn1+dnswqmAO8ifdDmJXXHpK1+E/thdnDv0BSg+bZ3BYX6COXONpvLVnF9VK4vtmcXLPl0asZKLFZul8g3JxY9GDyPnM34Mo/vYZMWPQ8OuQ85lJaKgqRzjYHlU+p/QJlNcW9rVse7P8rbhFY8S2GuCZ1UXDXUAFgIFG6TJy8zGp8Lvw+GKZGjAnFGjBsR2Po63OeAreaX0ALWEPrr937XZbVgvZ1v0hyCqYPHzfoFxLbj4AeH2ZmDT3u/ANyk1a/U4yXZqsTLgBEbDFAX6/ct5QQL5laIjbi4mzllpy87vw+jIx8ctLwK4rR8Cd1u8OgZY8vWbuYMsM6YYtDuB24RtmEyujCmZjYPZwy20ZOPQajCqYnXT6PZOlhdiW1dD2TAbpshgcubnhGzwM+ZNuj6qoqqoqlJaWory8HBcvXlpRnpOTg3HjxmH69OnIz883LSNv0h04f3z/5S6a0/q9oQiLATwelVF9wPJG4JbVxXk6dMOFn+Pu/Dr+7oaphuVomobNmzdj//79EdMQEW677TYsXLgQHo9xn/1C2Vs4ubckKfR7QwHCEh6+6Ce7Ii6bTwSWvwJ0CRuu6Xd7fRg2erJhGZqm4dFHHzW8+QAgIigtLcVjjz0GTdMM0w4bPRkuT5rj+pFggAieOw0LSQA2tAGowOhq9sgJpiNsmzdvRkVFRdSKp06dwtatWw3TuDxpGPrpiY7rGyEkt0QtGifWOwDJBKPLQ64da5i9qqrK9JfXG6WlpfD7jbccDM4b47i+EQpqfMzCMWJDDSCGK3gzhuYZ5i4tLY1PVQT79u0zTDMwJ89xfSMYPCou8RiwoRfAhiMfAwblGOYuL48/VoRZXt+gHNOhXqv1DVEYFrd4lFjuAArKcH1d15RqJLq6WvFQV2e8+daTlg4xCUhjtb4RCtYvT7PcARhQsHnSKVqIXc6viTNEKasVLG8DKGUcBUPXjKOk5OSYVJMG5OaajrubYqW+ZjI7yMTNcYtHiQ2NQDbckNHRZFzFjhs3Lm7lsWONW/jRYKV+oMkkPgT1Ej0lwVjuAMQw3P/WetF4enT69Okgir2iJiJMnz495nx26ptNDYtC9IMPcWJ9DSDKsCncUGXcUs7Pz8dtt90Ws+ztt9+OvDzjblY0WKnf6DfZHETW7x6yoQagg0bX688ehwqHDMtYuHAhxowxHjTpztixY1FcXBx1ejOs0Ne1IC6ePW6YhoADUYvGieUO4A56/mx0PRzqQPWptw3L8Hg8WLZsmWl1TESYOXMmli1bBrc7cR0cK/SrTx2BrgUjXleAuOA2vHeJwJZe0LMr5x1hppsjXfcNysWURf8Odpn3Fv1+P/bt24fy8vLL/ezc3FyMHTsW06dPT0i1b7W+KB2HS35k2AhUwKGvrdtuPEWZAGxZD8BMzwCI6ACBplr4j+3FiM990bSs/Px83HNP1EE4Ek4i9Kv++rppD4AFz/RJJEpsWRGkKSkRBcNO75nDu017BFcDrXV+fHDYdP9Hm8vr2myHPbY4wDfWv3SRGE8ZpVFhDcdffgqhgOPRUy0j1NaM4y8/BTHZIyCQJ+9e+0K9HTbZtylS038GoM0oSaCpFsd2PH5VOkGorRnHdj6OQLNx1a+UavWEPL+wySz7xui3vXWy5R9uvm7UAI/rc0bptPYW1J0+hiH5Y+BNT8yO7daL5xBsaUBaRnQLbZs//ADhUAe8vgTp1/nxfzt/hfZG89VdzYHw7+57+KUtCRGOAlsnacbk59w3JDPtBo9Jaz8cbMeHJw6AXW5kDvs0KM7d20rX4f/bn3DitafR3lBtuu6vi7I/Po0zR14Buz3IGjYy7t1BonRU/WUPyvb8HlpHq2n69qCG9/01p/aXnXsxLsE4sG0y7KHiqdkQXEhPc3vHjciBy2CVcHd8g3IxYvKXTNfQdUeFNVSfOnLF5swbi76HwXmjDfM2+k/iby99FO3NNygXI2++C8PGTDFdz9+FrgVRfeoIqv6yx3y8vyuPEpyorEUwqAXcrA//6dajTVFl7CO2OcD3FxQ8IKCNADA4YwCuGz44JvmuNXSD88ZgYE4efINyOufTCeFQOzqa69FSW4lG/ynUny1DOHTlLOPgvDG4sehBQ52/bnsYTReunL5wp/mQPWLCpe3hOfkYkJUNtzcdgEALtiPQVIe2unNo9J/ExbPHDQd5eiIATp9vQGPb5S3l923YevD3URfQB2wLEqVAxV2Pu7G1A5U1zRgxLPrjcnQtiJqKo6ipOBq3DY3nTqHxXEXEWqDBf7LXhw8A4WAANRVvo6bCeNQyHiprmro/fAhQBMAWB7ClF/DtBTMyROH27p/VNrWjsqYJdp8RdcagD250zQoEwNmaJtQ1fXyIhJT60prZk20JVmWLA/goOJMZ3p6f1za14/3zDVDKPifoqgV60uA/iabz9sVm0JXg9PmGKx4+AIDZ15bm+oIddtjiAEpJxM0hjW1BlFXVIRC0LSYCyt/c2ctnu2zTbw9qOFFZ+7FqvydCNMMOW+waCDL05mAojBOVdfDXNUOZrdLsA7oS+Gubsf+tt1D13kdTsZUV7+DAgbfgr2uxtDbSlcBf14LyqjoENd04sVDfV7NEgeUOsGTJZA+EJpmlEwiqG9rw7plaVDe2JfRB6EpQ3dCKd8/UoLqxDYDgwKsfjbUceGULBEB1QyveOXspTSIdUckl/eNnalHd0Gq6Erkz1+Q1a2yYrrdaYGCja3xv7/9IaGEd/tpmXKhvRXbmAAzNTEf6AE/M/VUB0N4RwsWWAOqbO6D3WGBbVfHupVpABP73P4raGg6rTv0WDM1MR3amrw/6GuqbA6hvDSCsx7jAl9nXUj7leuCIpUGlLXcAl+IJEsdog64r1Da2o7axHW43I8uXhoFpHqR53RjgdcPFdGkwiQhKCcK6QlALoyMYRmtQQ2t7EJrJTT/w6hZE+jnquqCmsQ01jW3wuFzITPdg4AAvfF43vB433C4GMwEi0NWlPx2hMIKhMFo7QmgNhEz1zaAwT4TFUcUtdwAhGdPX8aZwWKG+JYD6lsQetFlV8W5U6TRdR32LjvqWxMYeNIUwHoClw8KWv2NE8GmrNa5aCObRJvqI9YtCbfgSVzHWrm+DHTuDBJ+yWuNqRUSusVrDcgdgkSFWa1ytCGGo1Rp2bA2zNQ7/VYZlR9Z0Yf0rADDe/92PEanvAMyILsR2P72R+g6gFIzDZfUTGcWpHx+A2Dg+QD+RYSD14wOIsv5LXLXwVeAATP0OEC+iJPUdANL/CogbJsvvnfWvAIZxtMR+IkIilt876xuBIsZREPqJiACW3zvrHQDU7wDxwnwVOICS6Cbd+7kCseHeWe4A6Z899D6UMt8Y18/HUao1a8LB01bLWO4Aa9dCgeh1q3WuNgS0Z+1apP5I4CXoD/boXEUw23LPbHEAIn037N4DltpI2KV22yFkiwP8YuuRDwFlecy7qwd14LHnDll6VlAXtoWIEeFf26WV6pDwE3Zp2eYArdna80qp83bppSxKnWvO1owPHEogtjnAxo1HNSLqrwVMEOZfb9x41LY1FPZFCQPgofCvFJQthyKnJArVHmi2Vf+AzUGi9pddCN46YUQ9AXPt1E0dZNnPXzhiGFw70ThxYgo9VFxwiImmOKCdvCh1eMO2w1Nhc3fZthhB3RCA7ldKHWbmuFYMZ/i8GD8yBzmZ6RAC6poCOFFZi9ZAKKrrTpd/BUoFFPG34MBYiSOHOR0s89dMm3BtHRFMj9HuSYbPiy9MHIHM9DQQE5gIGT4v8nMz8WFDG7wel+H1UNg4MIPV5fcK4TsPv3Doldgz9h3HTvM6WOY/Om1C/jgCjM9P7cGN138KmelXxgtkZvjS3Bg2ON3w+vmLxotsrC6/JwI89/DWQ6tjypRAnHgFXEYE3yRSIwC+Ndo8OZmRg2cNzRoINqhFh2YNdLz87oio/QL+ZkyZEswVDlBYWHiTiCwFcIdSaiQzRx3dI1beiz6W4mVmuyL3XN0uglG71u0inOowPsrN6vJ78HkA7XPmzIklT0wopULMfAbAXqXUk7t37z7W/fplByguLvYFAoHHReT+rs84zhi9/SQPnT/gMQDGMPPSOXPmbGxubv7eG2+80QF0DgQVFxf7gsHgH5n5fqPC+kl5CMDSrKysV2fMmDEA6HSAQCDwOIDYz0brJ1WZkZWV9QgAcGFh4U39v/xPJEtnzZo1iTsbfP188iBmXsIA7nDakn4c4w5WSo102op+HGNUyvXzND3yQIymm193uvxkgzsHCVKGyobIUcXPNmim150uP8k4zQD2Om1FLOw7HUCol19hR1iw73TA9LrT5ScTIvIn1+jRo/1EtBTOrA2ImYAmeK9OQ9YARkaaC0qAD+o17C5rQ0O7bnrd6fKTCHG5XA8QAMyZM+dJAP3dwU8WT+zates7DADNzc3fA/CGwwb1YxMi8mdN01YAnesBzp49Gx4+fPhzaWlpuQAmI0VeB/3EjAD4dTgcvvfVV18NAr086FmzZk1i5iW4NEA0CkB0pzX2k6wEAZwWkT+5XK6NO3bseKf7xZT+pa+ZPTm91ecxPJDaapQg/ZEXDqZW878bKTcQ1J1Wrzem1RdWQK5wjtM29IWUdgBiMTyJ3A44zI7b0BdS2gF0wT86bYMw/ZPTNvSFlG0DPDh3xmB2B/3MiG0lZqJRqjUc9l376I43Gh21I05StgZwuTt+7PjDBwDmDJe748dOmxEvKVkDrCi+ZZYS3smcHA6sFBSTKtzwwmFbonokkpRzgBULCiZD0V4wspy25WMoNOvQ7/zltiOJP1/eQpLiFxQtDy28ZSqUvJZ0Dx8AGFkEeu37xbdOc9qUWEgZB1heXFAInV8Hc7bTtkSCmYcoUq8vLy4odNqWaHFsb2AsLC8ueFCEnmZO/mFpAjwidPfnJ+a3HCjz27rXPx6S3QFoxVem/pKY/oModdornbbeNW18fvaBMv8fnbbHiGR2AFq+YOrviPAvThsSL0QomDYhf8SBMv9Op22JRNI6wPKvFPyMiP7VaTv6CgE3TbshL/3AiXN7nLalN5KyWl2xcOocCJL2VxMXhMINzx/c5bQZPUk6B1izYLy3RWVWENMIp21JJKKksnVo+Ho7Q8BFQ9J1A1ska4HZw1dQLVDYA5F1AO4m8E0eTc/JqEnzKEE6iGaIku2JskkBL4JohhKkZ9SkeTyankPgmwDcDZF1UNijoAxDgxDTiIx6z8JE2ZQoHI0Q0htEMrdnxaQUFEEOEeFlCPb4eeTbW7dtjbQENwygFEDp8q9Mm00sGwEMj9OcCxD1wCNXDvFe7PzzNwDPA8CCBQtcI1TlzSB8UQRfFlBBz6HqS98NJXHaYglJ9wp4aMEtZxg8EkrpAO8llq0S5h0bth+IK8Dkg3NnDHZ5O9aQkqVgju4oVqUCiuhJL4XX/nTr0aZ4dFcUTRtGbjVXFC0A1B1gdkHhzIZtB0fFU55VJJ0DLC++5U0ieh5hfi7eh94bDxVPzSZgPgh3EvBZQPIUJAMAGNSqBH4G3hHQXq/XvW39pjcbEqW9omjaMLjVV6FowYZtB5MqDsP/Ax0JsQQ6sy+GAAAAAElFTkSuQmCC"
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "static/ScreenShot_01.25db1ff6.png";
+module.exports = require("react");
 
 /***/ }),
 /* 2 */
@@ -96,7 +96,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(0);
+var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -177,7 +177,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(0);
+var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -193,11 +193,11 @@ var _Home = __webpack_require__(9);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Details = __webpack_require__(11);
+var _Details = __webpack_require__(12);
 
 var _Details2 = _interopRequireDefault(_Details);
 
-var _About = __webpack_require__(15);
+var _About = __webpack_require__(17);
 
 var _About2 = _interopRequireDefault(_About);
 
@@ -362,7 +362,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(0);
+var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -421,7 +421,7 @@ var Home = function (_Component) {
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-3', style: { backgroundColor: "#F7F8FA" } },
-            _react2.default.createElement('div', { style: { marginTop: "40%" } }),
+            _react2.default.createElement('div', { style: { marginTop: "30%" } }),
             _react2.default.createElement(
               'p',
               { style: { fontSize: 42, color: 'rgb(83, 85, 88)' } },
@@ -453,7 +453,7 @@ var Home = function (_Component) {
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-4', style: { backgroundColor: "#F7F8FA" } },
-            _react2.default.createElement('img', { src: __webpack_require__(1), style: { width: "100%" } })
+            _react2.default.createElement('img', { src: __webpack_require__(11), style: { width: "100%" } })
           )
         )
       );
@@ -489,6 +489,12 @@ module.exports = require("material-ui/RaisedButton");
 /* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "static/ScreenShot_01.25db1ff6.png";
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
@@ -498,19 +504,19 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(0);
+var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _telescope = __webpack_require__(12);
+var _telescope = __webpack_require__(13);
 
 var _telescope2 = _interopRequireDefault(_telescope);
 
-var _cloudUpload = __webpack_require__(13);
+var _cloudUpload = __webpack_require__(14);
 
 var _cloudUpload2 = _interopRequireDefault(_cloudUpload);
 
-var _gitCompare = __webpack_require__(14);
+var _gitCompare = __webpack_require__(15);
 
 var _gitCompare2 = _interopRequireDefault(_gitCompare);
 
@@ -545,7 +551,7 @@ var Details = function (_Component) {
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-5 col-md-4 col-lg-3' },
-            _react2.default.createElement('img', { src: __webpack_require__(1), style: { width: "100%" } })
+            _react2.default.createElement('img', { src: __webpack_require__(16), style: { width: "100%" } })
           ),
           _react2.default.createElement(
             'div',
@@ -563,10 +569,9 @@ var Details = function (_Component) {
             )
           )
         ),
-        _react2.default.createElement('div', { style: { marginTop: 80, backgroundColor: "#F7F8FA" } }),
         _react2.default.createElement(
           'div',
-          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA", alignItems: 'center', paddingTop: 60 } },
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-1 col-md-1 col-lg-1' },
@@ -574,17 +579,17 @@ var Details = function (_Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-4' },
+            { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-6' },
             _react2.default.createElement(
               'p',
               { className: 'start-xs', style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
-              '\u4E0A\u4F20\u81EA\u5DF1\u62E5\u6709\u7684\u4E66\u7C4D\uFF0C\u5E76\u5BF9\u597D\u53CB\u53EF\u89C1\u3002'
+              '\u626B\u7801\u5F55\u5165\u60A8\u62E5\u6709\u7684\u4E66\u7C4D\uFF0C\u5E76\u5411\u597D\u53CB\u5C55\u793A\u3002'
             )
           )
         ),
         _react2.default.createElement(
           'div',
-          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA", alignItems: 'center', paddingTop: 20 } },
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-1 col-md-1 col-lg-1' },
@@ -592,17 +597,17 @@ var Details = function (_Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-4' },
+            { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-6' },
             _react2.default.createElement(
               'p',
               { className: 'start-xs', style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
-              '\u6DFB\u52A0\u81EA\u5DF1\u60F3\u770B\u7684\u4E66\u5230\u613F\u671B\u5355\uFF0C\u770B\u770B\u54EA\u4E2A\u597D\u53CB\u62E5\u6709\u6211\u613F\u671B\u7684\u4E66\u3002'
+              '\u6DFB\u52A0\u60A8\u60F3\u770B\u7684\u4E66\u5230\u613F\u671B\u5355\uFF0C\u770B\u770B\u54EA\u4E2A\u597D\u53CB\u62E5\u6709\u60A8\u60F3\u8BFB\u7684\u4E66\u3002'
             )
           )
         ),
         _react2.default.createElement(
           'div',
-          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA", alignItems: 'center', paddingTop: 20 } },
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-1 col-md-1 col-lg-1' },
@@ -610,7 +615,7 @@ var Details = function (_Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-4' },
+            { className: 'col-xs-10 col-sm-8 col-md-6 col-lg-6' },
             _react2.default.createElement(
               'p',
               { className: 'start-xs', style: { fontSize: 28, color: 'rgb(83, 85, 88)' } },
@@ -643,25 +648,31 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-icons/lib/go/telescope");
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-icons/lib/go/cloud-upload");
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-icons/lib/go/git-compare");
 
 /***/ }),
-/* 15 */
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/ScreenShot_02.f8a060b7.png";
+
+/***/ }),
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -673,11 +684,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(0);
+var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Avatar = __webpack_require__(16);
+var _Avatar = __webpack_require__(18);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
@@ -705,10 +716,10 @@ var About = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { style: { height: '100vh' } },
+        { style: { height: '100vh', backgroundColor: "#F7F8FA" } },
         _react2.default.createElement(
           'div',
-          { className: 'row center-xs' },
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
           _react2.default.createElement(
             'div',
             { className: 'col-xs-12 col-sm-10 col-md-8 col-lg-6' },
@@ -721,12 +732,12 @@ var About = function (_Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'row center-xs' },
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
           _react2.default.createElement(
             'div',
             { className: 'col-xs-10 col-sm-6 col-md-6 col-lg-3' },
             _react2.default.createElement(_Avatar2.default, {
-              src: __webpack_require__(17),
+              src: __webpack_require__(19),
               size: 120
             }),
             _react2.default.createElement(
@@ -749,7 +760,7 @@ var About = function (_Component) {
             'div',
             { className: 'col-xs-10 col-sm-6 col-md-6 col-lg-3' },
             _react2.default.createElement(_Avatar2.default, {
-              src: __webpack_require__(18),
+              src: __webpack_require__(20),
               size: 120
             }),
             _react2.default.createElement(
@@ -768,6 +779,98 @@ var About = function (_Component) {
               'Founder & Core Developer @YueXiangApp. @UW-Madison grad.'
             )
           )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-12 col-sm-10 col-md-8 col-lg-6' },
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 34, fontWeight: "bold", color: 'rgb(83, 85, 88)' } },
+              '\u611F\u8C22\u6240\u6709\u53C2\u4E0E\u4EBA\u5458'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15' },
+            _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 16, fontWeight: "bold", color: 'rgb(83, 85, 88)', paddingBottom: 25 } },
+              'Florence Wang'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 16, fontWeight: "bold", color: 'rgb(83, 85, 88)', paddingBottom: 25 } },
+              'Anna He'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 16, fontWeight: "bold", color: 'rgb(83, 85, 88)', paddingBottom: 25 } },
+              'Lingfei Li'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 16, fontWeight: "bold", color: 'rgb(83, 85, 88)', paddingBottom: 25 } },
+              'Yueyao Wang'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'row center-xs', style: { backgroundColor: "#F7F8FA" } },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 16, fontWeight: "bold", color: 'rgb(83, 85, 88)', paddingBottom: 25 } },
+              'Lily Li'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 16, fontWeight: "bold", color: 'rgb(83, 85, 88)', paddingBottom: 25 } },
+              'Eric Ma'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' },
+            _react2.default.createElement(_Avatar2.default, { src: __webpack_require__(0), size: 66 }),
+            _react2.default.createElement(
+              'p',
+              { style: { fontSize: 16, fontWeight: "bold", color: 'rgb(83, 85, 88)', paddingBottom: 25 } },
+              'You?'
+            )
+          ),
+          _react2.default.createElement('div', { className: 'col-xs-12 col-sm-6 col-md-3 col-lg-2 m-b-15 ' })
         )
       );
     }
@@ -793,19 +896,19 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 16 */
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = require("material-ui/Avatar");
 
 /***/ }),
-/* 17 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/luyu.60d205b5.png";
 
 /***/ }),
-/* 18 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/yida.951dc01f.png";
@@ -813,4 +916,4 @@ module.exports = __webpack_require__.p + "static/yida.951dc01f.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.c49f63df.js.map
+//# sourceMappingURL=app.static.347d3465.js.map
